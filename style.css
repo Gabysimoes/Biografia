@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(219, 218, 218);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+  
+}
+
+
+.topo{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(223, 52, 52);
+}
+
+.banner{
+    flex:  1;
+    height: 200px;
+    margin: 15px;
+    background-color: rgb(228, 142, 142);
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: solid;
+}
+
+nav{
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+
+}
+
+.item-menu{
+    flex: 1;
+    margin: 10px;
+    background-color: rgb(223, 52, 52);
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    height: 500px;
+    flex-direction: row; 
+
+}
+
+.section-column{
+    flex: 1;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+footer{
+    display: flex;
+    height: 150px;
+    flex-direction: row; 
+}
+
+.footer-card{
+   
+    width: 350px;
+    margin: 10px;
+    background-color: rgb(228, 142, 142);
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.footer-card2{
+    flex: 1;
+    margin: 10px;
+    background-color: rgb(228, 142, 142);
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: justify;
+}
